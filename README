@@ -14,8 +14,8 @@ fun.
  
 ### Acknowledgements
 - Harry (ab7tb) - For his excellent MorseMail program, its very elegant morse mail message format, and the community he has fostered.
-- Everyone behind the open source project, [Morse Code Madness](https://sourceforge.net/projects/morsemadness/), whose code gave some valuable insights (and some synthesized voice samples which were "liberated").
-- [Ward Cunningham](http://c2.com/morse/), whose own Morse Trainer is a beautifully simple program with a long lineage (and with some algorithms which seem to be directly based on old electronic circuit equivalents from old training machines) which gave me the spark to build this program.
+- Everyone behind the open source project, [Morse Code Madness](https://sourceforge.net/projects/morsemadness/), whose code gave some valuable insights (and some synthesized voice samples which were "liberated").
+- [Ward Cunningham](http://c2.com/morse/), whose own Morse Trainer is a beautifully simple program with a long lineage (and with some algorithms which seem to be directly based on old electronic circuit equivalents from old training machines) which gave me the spark to build this program.
 - [Jason Kottke](http://www.kottke.org/plus/type/silkscreen/) for his very handy Silkscreen font
 
 ### Download
