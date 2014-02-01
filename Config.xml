@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MorseLearnerConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Wpm="5" OverallWpm="5" Frequency="825" Difficulty="Learner" UseKeyboard="false" Key="RControlKey" UseMouse="false" MouseButton="Right" UseComDevice="true" ComDevice="COM1" ComDevicePin="DSR" SendKeys="true" />

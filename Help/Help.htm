@@ -1,0 +1,185 @@
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<FONT face="Arial" size="2">
+			<DIV>
+				<H1><FONT face="Arial">Morse Learner <FONT size="1">(v2014.2.1)</FONT></FONT></H1>
+				<P><FONT face="Arial" size="2"> Morse Learner is a small computer program to assist in 
+						learning and experimenting with international morse code.&nbsp; You can use it 
+						to transmit or playback morse messages, practice learning to receive morse 
+						characters, practice transmitting morse characters,&nbsp;or practice receiving 
+						whole words.&nbsp; Its&nbsp;emphasis is to make learning morse code easy and 
+						fun.</FONT></P>
+				<p align="center">
+					<img src="main.gif" width="410" height="255" border="0">
+				</p>
+				<P><FONT face="Arial" size="2"><FONT face="Arial" size="2"><STRONG>Message&nbsp;Mode</STRONG></FONT></P>
+				<P><FONT face="Arial" size="2">This&nbsp;mode lets you:</FONT><FONT face="Arial" size="2">&nbsp;<BR>
+					</FONT><FONT face="Arial" size="2">- Transmit morse code, either using a morse key 
+						(default is the left control button on the keyboard), or by typing the message 
+						in on the keyboard.<BR>
+						-&nbsp;Copy your morse code to the clipboard in morse&nbsp;mail format, which 
+						preserves the exact timings (the "fist") of the message you recorded.<BR>
+						- Playback text or morse mail messages from the clipboard.</FONT></P>
+				<P>A morse mail message is simply&nbsp;some text which records the time 
+					lengths&nbsp;a morse key was pressed down (+)&nbsp;and released (-) for an 
+					entire morse code transmission.&nbsp; An example morse mail message looks like:</P>
+				<P>
+					<BLOCKQUOTE dir="ltr" style="MARGIN-RIGHT: 0px"><PRE>&lt;MorseMail&gt;2005.07.07 09:44:36
++75-225+225-75+75-75+75-75+225-225
++75-75+225-225+225-75+225-225+75-75
++225-75+225-75+75-225+75-75+225-75
++75-75+75-225+75
+&lt;/MorseMail&gt;</PRE>
+					</BLOCKQUOTE>
+				<P></P>
+				<P>The morse learner program doesnt always fully decipher the morse mail message 
+					correctly when playing it back, especially if it is very short, or not well 
+					transmitted.</P>
+				<P><FONT face="Arial" size="2"><STRONG>Practice Receive Characters Mode</STRONG></FONT></P>
+				<P>This mode plays the sounds for a morse character, then waits for a small 
+					duration waiting for the correct answer to be typed into the keyboard.&nbsp; A 
+					correct answer reduces the chance of that character being shown again, and 
+					eventually, many correct answers will unlock additional learning characters.</P>
+				<P><FONT face="Arial" size="2"><STRONG><FONT face="Arial" size="2">Practice </FONT>Transmit 
+							Characters Mode</STRONG></FONT></P>
+				<P>This mode prompts the user with a morse character, then waits for a small 
+					duration waiting for the letter to be transmitted correctly with the morse 
+					key.&nbsp; A correct answer reduces the chance of that character being prompted 
+					for again, and eventually, many correct answers will unlock additional learning 
+					characters.</P>
+				<P><FONT face="Arial" size="2"><STRONG><FONT face="Arial" size="2">Practice </FONT>Receive 
+							Words Mode</STRONG></FONT></P>
+				<P><FONT face="Arial" size="2">A more advanced mode, that should only be done once the 
+						user has a basic knowledge of morse.&nbsp; This practice mode&nbsp;sounds the 
+						morse code for an entire word at once.&nbsp; The user can type in the answer as 
+						the morse is playing,&nbsp;or&nbsp;for a short duration afterwards.&nbsp; With 
+						every fully correct answer, the chance of longer words being chosen 
+						increases.&nbsp; Words with&nbsp;characters the user is less familiar with have 
+						a higher chance of being played.</FONT><FONT face="Arial" size="2">&nbsp; </FONT>
+				</P>
+				<P><STRONG>Options</STRONG></P>
+				<p align="center">
+					<img src="options.gif" width="472" height="472" border="0">
+				</p>
+				<P><U>Morse Speed</U></P>
+				<P>The speed in which morse code is transmitted is mostly commonly measured in 
+					"Words per Minute" (wpm), which is the number of times the word "PARIS" can be 
+					transmitted in 60 seconds with standard timing for all the pauses between the 
+					characters and words.&nbsp; Morse Learner distinguishes between character 
+					speed; the speed in which individual characters are sent, and overall speed; in 
+					which the pause lengths&nbsp;between characters and words 
+					are&nbsp;increased&nbsp;over&nbsp;their standard lengths&nbsp;to slow down the 
+					overall transmission.</P>
+				<P>Morse is usually sent using standard pause lengths&nbsp;between characters and 
+					words, so no distinction is normally made between the two speeds ("character 
+					speed" and "overall" speed are&nbsp;the same).&nbsp; However, for learning, it 
+					is useful to be able to increase the lengths between each character, so you get 
+					a learn how the character sounds at&nbsp;its proper or fast transmission but 
+					still have a bit more time during the pause to decypher it.&nbsp; The standard 
+					"Farnsworth" speed&nbsp;for learning is 12-18 wpm for characters, and 5 wpm 
+					overall.</P>
+				<P>The speed setting controls how the morse is played&nbsp;and the speed in which 
+					morse key input is&nbsp;read in Morse Learner.</P>
+				<P>When learning morse, you will&nbsp;should set a low overall more speed (5pm), 
+					and the character speed to the final speed you want to eventually become 
+					familiar with.&nbsp; As your learning progresses you will slowly increase the 
+					overall speed to the character speed.</P>
+				<P><U>Difficulty</U></P>
+				<P>Controls the length the program waits for a correct answer in the practice 
+					mdoes.</P>
+				<P><U>Sound</U></P>
+				<P>This section controls&nbsp;the sound output frequency which&nbsp;is 
+					used&nbsp;play the morse code.&nbsp;
+				</P>
+				<P><U>Input</U></P>
+				<P>What input device and settings to use&nbsp;as&nbsp;for the&nbsp;morse key input.</P>
+				<P><STRONG>Learning Characters</STRONG></P>
+				<p align="center">
+					<img src="learningcharacters.gif" width="391" height="50" border="0">
+				</p>
+				<P>All the practice modes will pick characters only from the "learning character" 
+					set.&nbsp; As you provide correct answers in the practice modes, the&nbsp;bar 
+					for those characters&nbsp;in the display will grow smaller.&nbsp; The levels 
+					can be reset to the predefined amounts; "beginner knowledge", "intermediate 
+					knowledge", or "advanced knowledge", for the currently selected character set 
+					through the menu.</P>
+				<P>
+					The practice receive characters mode and practice send characters mode will 
+					automatically add new characters to this set once all the existing selected set 
+					has been learnt&nbsp;roughly to an&nbsp;"advanced" level.</P>
+				<P>Different characters can also be manually selected/unselected with the mouse, or 
+					groups of characters (alphabetic, numberic, punctuation) can be added or 
+					removed through the menu.&nbsp;</P>
+				<P>
+		</FONT><FONT face="Arial" size="2"><FONT face="Arial" size="2"><STRONG>Mouse &amp; Keyboard 
+					Shortcuts</STRONG></FONT></FONT></P>
+		<P><FONT face="Arial" size="2">Esc - Quit the current mode or message playback 
+				and&nbsp;clears the current message.<BR>
+				Right&nbsp;Control - The default keyboard morse key (works even if the program 
+				is running in the background).<FONT face="Arial" size="2"><BR>
+				</FONT>F1 - Message Mode.<BR>
+				F2 -&nbsp;Practice Receive Characters&nbsp;Mode.<BR>
+				F3 -&nbsp;Practice Transmit Characters&nbsp;Mode.<BR>
+				F4 -&nbsp;Practice Receive&nbsp;Words&nbsp;Mode.<BR>
+				F10 -&nbsp;Options.<BR>
+				Control+C&nbsp;- Copy the current message while in&nbsp;message mode to the 
+				clipboard in morse mail format.<BR>
+				Control+X&nbsp;-&nbsp;Copy the current message while in&nbsp;message mode to 
+				the clipboard in&nbsp;text format.<BR>
+				Control+V&nbsp;-&nbsp;Play the text or morse mail message currently on the 
+				clipboard.<BR>
+				Control+C x2 - While in another application, plays whatever is copied onto the 
+				clipboard if Morse Learner is running in the background. </FONT><FONT face="Arial" size="2">
+				<BR>
+				Space - Pause/Restart the&nbsp;Practice Mode.</FONT></P>
+		<P><FONT face="Arial" size="2">Clicking the mouse of individual characters in the 
+				"learning characters" section will lock/unlock them individually.</FONT></P>
+		<P><FONT face="Arial" size="2"><FONT face="Arial" size="2"><STRONG>Connecting a Morse Key to 
+						your computer</STRONG></FONT></FONT></P>
+		<P><FONT face="Arial" size="2">Although Morse Learner lets the user input morse code 
+				using either&nbsp;the keyboard or a mouse button, nothing beats the feel and 
+				authenticity of a real morse key.&nbsp; </FONT>A morse key or paddle can be 
+			connected through the serial or COM port of your computer on either the "DSR" 
+			or "CTS" lines.</P>
+		<P>9 pin serial cables can be brought from an electronics store, or 
+			often&nbsp;obtained cheaply from old second-hand dial-up modems.&nbsp; To 
+			detemine which pair of wires to connect is sometimes a matter of 
+			experimentation, since the color coding of the wires is not always 
+			consistent.&nbsp; One simple method is to strip all the wires, and try touching 
+			different wires together until the Morse Learner program confirms a contact on 
+			the right pair (make sure you turn on the com port input in the options 
+			first).&nbsp; Once the correct wires are confirmed, connect the wires to the 
+			morse key, and cut the rest short.</P>
+		<P>Iambic morse paddles are not (yet) supported.</P>
+		<P><FONT face="Arial" size="2"><STRONG>Future Todo's / Nice-to-haves </STRONG></FONT>
+		</P>
+		<P><FONT face="Arial" size="2">- Support for output through&nbsp;the serial port to a 
+				morse sounder or flashing light.<BR>
+			</FONT><FONT face="Arial" size="2">- A practice mode for longer messages&nbsp;e.g. 
+				random paragraphs from "Huckleberry Finn".<BR>
+			</FONT><FONT face="Arial" size="2">- Better sound support to reduce the "clicks".<BR>
+				- MorseMail RSS support.<BR>
+				- Support for Iambic morse keys.</FONT></P>
+		<P><FONT face="Arial" size="2"><STRONG>Acknowledgements</STRONG></FONT></P>
+		<P><FONT face="Arial" size="2">Harry (ab7tb) - For his excellent 
+					MorseMail program, its very elegant morse mail message format, and the 
+				community he has fostered.</FONT></P>
+		<P><FONT face="Arial" size="2">Everyone behind the open source project, <A href="https://sourceforge.net/projects/morsemadness/">
+					Morse Code Madness</A>, whose code gave some valuable insights (and some 
+				synthesized voice&nbsp;samples which&nbsp;were "liberated").</FONT></P>
+		<P><FONT face="Arial" size="2"><A href="http://c2.com/morse/">Ward Cunningham</A>, 
+				whose own Morse Trainer is a&nbsp;beautifully simple program with a long 
+				lineage&nbsp;(and with some algorithms&nbsp;which seem to be directly based on 
+				old electronic circuit equivalents from old&nbsp;training machines)&nbsp;which 
+				gave me the spark to build this program.</FONT></P>
+		<P>Jason Kottke for his very handy <A href="http://www.kottke.org/plus/type/silkscreen/">
+				Silkscreen</A> font</P>
+		<P><STRONG>Links</STRONG></P>
+		<P>email:&nbsp;<A href="mailto:wverkley@xtra.co.nz">wverkley@xtra.co.nz</A><br>
+			www: <A href="http://www.wxv.co.nz/">http://www.wxv.co.nz/morselearner</A></P>
+		</DIV></FONT>
+	</body>
+</html>

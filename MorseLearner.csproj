@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E1484C69-4BE7-418F-AF01-D478D8DB6DB5}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>App.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>MorseLearner</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Wxv.MorseLearner</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <ApplicationManifest>MorseLearner.exe.manifest</ApplicationManifest>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>.\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ASynchWorker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ComDeviceHook.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ComLib.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CsvUtil.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FlickerFreePanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KeyActivityHook.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LearnState.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MorseConstants.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MorseDocument.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MorseDocumentCsv.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MorseDocumentParser.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MorseDocumentStateRecorder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MorseDocumentStats.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MorseKey.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MorseLearnerConfig.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MorseMail.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MorsePlayer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MouseActivityHook.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OptionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PakFile.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RunOnce.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sleeper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StringUtil.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Vocabulary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WaveBuffer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WaveDevice.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WaveGenerator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WaveOutLib.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WavePlayer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WaveWriter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FlickerFreePanel.resx">
+      <DependentUpon>FlickerFreePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OptionsForm.resx">
+      <DependentUpon>OptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="App.ico" />
+    <Content Include="Data\Sounds\AlphaNumeric\0.wav" />
+    <Content Include="Data\Sounds\AlphaNumeric\1.wav" />
+    <Content Include="Data\Sounds\AlphaNumeric\2.wav" />
+    <Content Include="Data\Sounds\AlphaNumeric\3.wav" />
+    <Content Include="Data\Sounds\AlphaNumeric\4.wav" />
+    <Content Include="Data\Sounds\AlphaNumeric\5.wav" />
+    <Content Include="Data\Sounds\AlphaNumeric\6.wav" />
+    <Content Include="Data\Sounds\AlphaNumeric\7.wav" />
+    <Content Include="Data\Sounds\AlphaNumeric\8.wav" />
+    <Content Include="Data\Sounds\AlphaNumeric\9.wav" />
+    <Content Include="Data\Sounds\AlphaNumeric\A.wav" />
+    <Content Include="Data\Sounds\AlphaNumeric\B.wav" />
+    <Content Include="Data\Sounds\AlphaNumeric\C.wav" />
+    <Content Include="Data\Sounds\AlphaNumeric\D.wav" />
+    <Content Include="Data\Sounds\AlphaNumeric\E.wav" />
+    <Content Include="Data\Sounds\AlphaNumeric\F.wav" />
+    <Content Include="Data\Sounds\AlphaNumeric\G.wav" />
+    <Content Include="Data\Sounds\AlphaNumeric\H.wav" />
+    <Content Include="Data\Sounds\AlphaNumeric\I.wav" />
+    <Content Include="Data\Sounds\AlphaNumeric\J.wav" />
+    <Content Include="Data\Sounds\AlphaNumeric\K.wav" />
+    <Content Include="Data\Sounds\AlphaNumeric\L.wav" />
+    <Content Include="Data\Sounds\AlphaNumeric\M.wav" />
+    <Content Include="Data\Sounds\AlphaNumeric\N.wav" />
+    <Content Include="Data\Sounds\AlphaNumeric\O.wav" />
+    <Content Include="Data\Sounds\AlphaNumeric\P.wav" />
+    <Content Include="Data\Sounds\AlphaNumeric\Q.wav" />
+    <Content Include="Data\Sounds\AlphaNumeric\R.wav" />
+    <Content Include="Data\Sounds\AlphaNumeric\S.wav" />
+    <Content Include="Data\Sounds\AlphaNumeric\T.wav" />
+    <Content Include="Data\Sounds\AlphaNumeric\U.wav" />
+    <Content Include="Data\Sounds\AlphaNumeric\V.wav" />
+    <Content Include="Data\Sounds\AlphaNumeric\W.wav" />
+    <Content Include="Data\Sounds\AlphaNumeric\X.wav" />
+    <Content Include="Data\Sounds\AlphaNumeric\Y.wav" />
+    <Content Include="Data\Sounds\AlphaNumeric\Z.wav" />
+    <Content Include="Data\Sounds\Punctuation\Apostrophe.wav" />
+    <Content Include="Data\Sounds\Punctuation\Colon.wav" />
+    <Content Include="Data\Sounds\Punctuation\Comma.wav" />
+    <Content Include="Data\Sounds\Punctuation\Dash.wav" />
+    <Content Include="Data\Sounds\Punctuation\Dollar sign.wav" />
+    <Content Include="Data\Sounds\Punctuation\Forward Slash.wav" />
+    <Content Include="Data\Sounds\Punctuation\Full Stop.wav" />
+    <Content Include="Data\Sounds\Punctuation\Parenthesis.wav" />
+    <Content Include="Data\Sounds\Punctuation\Question Mark.wav" />
+    <Content Include="Data\Sounds\Punctuation\Quote.wav" />
+    <Content Include="Data\Sounds\Punctuation\Semicolon.wav" />
+    <Content Include="Data\Sounds\wordFinish.wav" />
+    <Content Include="Data\Sounds\wordStart.wav" />
+    <Content Include="Data\Vocabulary.txt" />
+    <Content Include="Help\Help.htm" />
+    <Content Include="MorseLearner.exe.manifest" />
+    <Content Include="State.xml" />
+    <None Include="Data.pak" />
+    <None Include="Help.mht" />
+    <None Include="README" />
+    <None Include="slkscr.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

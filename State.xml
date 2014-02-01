@@ -1,0 +1,28 @@
+<LearnState OveralError="0.814075438040075" WordLevel="3">
+  <LearnCharacter Character="a" Error="1" />
+  <LearnCharacter Character="b" Error="1" />
+  <LearnCharacter Character="c" Error="1" />
+  <LearnCharacter Character="d" Error="0.875" />
+  <LearnCharacter Character="f" Error="0.875" />
+  <LearnCharacter Character="g" Error="0.779296875" />
+  <LearnCharacter Character="h" Error="0.875" />
+  <LearnCharacter Character="i" Error="1" />
+  <LearnCharacter Character="j" Error="1" />
+  <LearnCharacter Character="k" Error="1" />
+  <LearnCharacter Character="l" Error="1" />
+  <LearnCharacter Character="m" Error="1" />
+  <LearnCharacter Character="n" Error="0.791259765625" />
+  <LearnCharacter Character="o" Error="1" />
+  <LearnCharacter Character="p" Error="0.875" />
+  <LearnCharacter Character="q" Error="1" />
+  <LearnCharacter Character="r" Error="1" />
+  <LearnCharacter Character="s" Error="1" />
+  <LearnCharacter Character="t" Error="0.875" />
+  <LearnCharacter Character="u" Error="0.875" />
+  <LearnCharacter Character="v" Error="1" />
+  <LearnCharacter Character="w" Error="1" />
+  <LearnCharacter Character="x" Error="0.875" />
+  <LearnCharacter Character="y" Error="1" />
+  <LearnCharacter Character="z" Error="1" />
+  <LearnCharacter Character="e" Error="1" />
+</LearnState>
